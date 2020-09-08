@@ -12,3 +12,4 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/${KUBECTL
 RUN chmod +x ./kubectl
 RUN mv ./kubectl /usr/local/bin/kubectl
 
+ENTRYPOINT [""]
