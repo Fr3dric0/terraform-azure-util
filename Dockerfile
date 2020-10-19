@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azure-cli:2.11.1
+FROM mcr.microsoft.com/azure-cli:2.13.0
 
 ARG TERRAFORM_VERSION="0.13.4"
 ARG KUBECTL_VERSION="v1.19.0"
