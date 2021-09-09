@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/azure-cli:2.26.0
+FROM mcr.microsoft.com/azure-cli:2.28.0
 
-ARG TERRAFORM_VERSION="1.0.2"
+ARG TERRAFORM_VERSION="1.0.6"
 ARG KUBECTL_VERSION="v1.20.5"
 
 WORKDIR /home
